@@ -1,19 +1,19 @@
 const app = "I don't do much."
-var array = []
+var kittens = []
 var name;
 
 function destructivelyAppendKitten(name) {
-  var array = [];
-  array.push("bob")
-  return array
+  var kittens = [];
+  kittens.push("bob")
+  return kittens
 }
 
 function destructivelyPrependKitten(name) {
-  array.unshift(name)
-  return array
+  kittens.unshift(name)
+  return kittens
 }
 
 function destructivelyRemoveLastKitten() {
-  array.pop()
-  return array
+  kittens.pop()
+  return kittens
 }
