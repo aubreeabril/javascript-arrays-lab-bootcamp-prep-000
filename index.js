@@ -1,6 +1,6 @@
 const app = "I don't do much."
-let array = []
-const name;
+var array = []
+var name;
 
 function destructivelyAppendKitten(name) {
   array.push(name)
