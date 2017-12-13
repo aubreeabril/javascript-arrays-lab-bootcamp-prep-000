@@ -3,7 +3,7 @@ var array = []
 var name;
 
 function destructivelyAppendKitten(name) {
-  array.push()
+  array.push("bob")
   return array
 }
 
